@@ -102,17 +102,17 @@ jupyter notebook swimbladder/Swim\ Bladder\ Segmentation.ipynb
 
 If you use this codebase or datasets, please cite:
 
-```bash
+```bibtex
 @article {Chen2025.07.07.661868,
-	author = {Chen, Haitao and Li, Kevin and Kreiss, Lucas and Reamey, Paul and Pierce, Lain X. and Zhang, Ralph and Da Luz, Ricardo and Chaware, Amey and Kim, Kanghyun and Cook, Clare B. and Yang, Xi and Lerner, Joshua F. and Doman, Jed and B{\`e}gue, Aur{\'e}lien and Efromson, John and Harfouche, Mark and Horstmeyer, Gregor and McCarroll, Matthew N. and Horstmeyer, Roarke},
-	title = {High-throughput multi-camera array microscope platform for automated 3D behavioral analysis of swimming zebrafish larvae},
-	elocation-id = {2025.07.07.661868},
-	year = {2025},
-	doi = {10.1101/2025.07.07.661868},
-	publisher = {Cold Spring Harbor Laboratory},
-	URL = {https://www.biorxiv.org/content/early/2025/10/20/2025.07.07.661868},
-	eprint = {https://www.biorxiv.org/content/early/2025/10/20/2025.07.07.661868.full.pdf},
-	journal = {bioRxiv}
+  author = {Chen, Haitao and Li, Kevin and Kreiss, Lucas and Reamey, Paul and Pierce, Lain X. and Zhang, Ralph and Da Luz, Ricardo and Chaware, Amey and Kim, Kanghyun and Cook, Clare B. and Yang, Xi and Lerner, Joshua F. and Doman, Jed and B{\`e}gue, Aur{\'e}lien and Efromson, John and Harfouche, Mark and Horstmeyer, Gregor and McCarroll, Matthew N. and Horstmeyer, Roarke},
+  title = {High-throughput multi-camera array microscope platform for automated 3D behavioral analysis of swimming zebrafish larvae},
+  elocation-id = {2025.07.07.661868},
+  year = {2025},
+  doi = {10.1101/2025.07.07.661868},
+  publisher = {Cold Spring Harbor Laboratory},
+  URL = {https://www.biorxiv.org/content/early/2025/10/20/2025.07.07.661868},
+  eprint = {https://www.biorxiv.org/content/early/2025/10/20/2025.07.07.661868.full.pdf},
+  journal = {bioRxiv}
 }
 ```
 
