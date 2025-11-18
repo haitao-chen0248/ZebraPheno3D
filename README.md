@@ -1,7 +1,7 @@
 # ZebraPheno3D
 
 **ZebraPheno3D** is a pipeline for 3D behavioral and anatomical phenotyping of zebrafish larvae. This project combines DeepLabCut-based multi-view tracking with 3D skeletal reconstruction, and incorporates SAM2-based segmentation for swim bladder extraction and analysis. The methodology is described in detail in our preprint:  
-📄 [bioRxiv: 3D Behavioral and Anatomical Profiling of Zebrafish Larvae](https://www.biorxiv.org/content/10.1101/2025.07.07.661868v2.full)
+📄 [High-throughput multi-camera array microscope platform for automated 3D behavioral analysis of swimming zebrafish larvae](https://www.biorxiv.org/content/10.1101/2025.07.07.661868v2.full)
 
 ---
 
@@ -102,7 +102,19 @@ jupyter notebook swimbladder/Swim\ Bladder\ Segmentation.ipynb
 
 If you use this codebase or datasets, please cite:
 
-> [Authors], *ZebraPheno3D: 3D Behavioral and Anatomical Profiling of Zebrafish Larvae*, bioRxiv (2025). [DOI](https://www.biorxiv.org/content/10.1101/2025.07.07.661868v2.full)
+```bash
+@article {Chen2025.07.07.661868,
+	author = {Chen, Haitao and Li, Kevin and Kreiss, Lucas and Reamey, Paul and Pierce, Lain X. and Zhang, Ralph and Da Luz, Ricardo and Chaware, Amey and Kim, Kanghyun and Cook, Clare B. and Yang, Xi and Lerner, Joshua F. and Doman, Jed and B{\`e}gue, Aur{\'e}lien and Efromson, John and Harfouche, Mark and Horstmeyer, Gregor and McCarroll, Matthew N. and Horstmeyer, Roarke},
+	title = {High-throughput multi-camera array microscope platform for automated 3D behavioral analysis of swimming zebrafish larvae},
+	elocation-id = {2025.07.07.661868},
+	year = {2025},
+	doi = {10.1101/2025.07.07.661868},
+	publisher = {Cold Spring Harbor Laboratory},
+	URL = {https://www.biorxiv.org/content/early/2025/10/20/2025.07.07.661868},
+	eprint = {https://www.biorxiv.org/content/early/2025/10/20/2025.07.07.661868.full.pdf},
+	journal = {bioRxiv}
+}
+```
 
 ---
 
