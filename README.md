@@ -60,10 +60,10 @@ Install the required Python packages for tracking and segmentation. You will nee
 
 ```bash
 # Core packages
-pip install opencv-python numpy matplotlib
+conda install opencv numpy matplotlib
 
 # Install DeepLabCut (see repo for full instructions)
-pip install 'deeplabcut[gui]'
+# Please follow official instructions: https://deeplabcut.github.io/DeepLabCut/docs/installation.html
 
 # Install SAM2 (requires PyTorch, torchvision, etc.)
 # Please follow official instructions: https://github.com/facebookresearch/sam2
