@@ -100,10 +100,6 @@ Use MATLAB scripts in `kinematics/` to reconstruct 3D skeletons from the tracked
 
 Run the Jupyter notebooks in `swimbladder/` to segment the swim bladder and perform 3D reconstruction and analysis:
 
-```bash
-jupyter notebook swimbladder/Swim\ Bladder\ Segmentation.ipynb
-```
-
 ---
 
 ## 📄 Citation
