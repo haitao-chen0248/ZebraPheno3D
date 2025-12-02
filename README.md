@@ -98,7 +98,7 @@ Use MATLAB scripts in `kinematics/` to reconstruct 3D skeletons from the tracked
 
 ### 3. Swim Bladder Segmentation & Analysis
 
-Run the Jupyter notebooks in `swimbladder/` to segment the swim bladder and perform 3D reconstruction and analysis:
+Run the Jupyter notebooks in `swimbladder/` to segment the swim bladder and perform 3D reconstruction and analysis.
 
 ---
 
