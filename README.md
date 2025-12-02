@@ -1,6 +1,6 @@
 # ZebraPheno3D
 
-**ZebraPheno3D** is a high-throughput platform designed for the 3D behavioral and anatomical phenotyping of zebrafish larvae. Consisting of a **multi-camera array microscope (MCAM)** and a co-designed **mirrored well plate**, it enables the simultaneous capture of synchronized top and side views of multiple freely swimming larvae. An efficient, scalable machine learning pipeline enables accurate 3D behavioral and morphodynamical analysis and automated analysis of up to 48 larvae at several hundred frames per second. The methodology is detailed in our preprint:  
+**ZebraPheno3D** is a high-throughput platform designed for the 3D behavioral and anatomical phenotyping of zebrafish larvae. Consisting of a **multi-camera array microscope (MCAM)** and a co-designed **mirrored well plate**, it enables the simultaneous capture of synchronized top and side views of up to 48 swimming larvae. An efficient, scalable machine learning pipeline enables accurate 3D behavioral and morphodynamical analysis and automated analysis of larvae at several hundred frames per second. The methodology is detailed in our preprint:  
 📄 [High-throughput multi-camera array microscope platform for automated 3D behavioral analysis of swimming zebrafish larvae](https://www.biorxiv.org/content/10.1101/2025.07.07.661868v2.full)
 
 ---
