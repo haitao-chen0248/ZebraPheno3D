@@ -1,6 +1,6 @@
 # ZebraPheno3D
 
-**ZebraPheno3D** is a high-throughput platform designed for the 3D behavioral and anatomical phenotyping of zebrafish larvae. It consists of a multi-camera array microscope (MCAM) and a co-designed mirrored well plate, it enables the simultaneous capture of synchronized top and side views of multiple freely swimming larvae. An efficient, scalable machine learning pipeline enables accurate 3D behavioral and morphodynamical analysis and automated analysis of up to 48 larvae at several hundred frames per second. The methodology is described in detail in our preprint:  
+**ZebraPheno3D** is a high-throughput platform designed for the 3D behavioral and anatomical phenotyping of zebrafish larvae. Consisting of a **multi-camera array microscope (MCAM)** and a co-designed **mirrored well plate**, it enables the simultaneous capture of synchronized top and side views of multiple freely swimming larvae. An efficient, scalable machine learning pipeline enables accurate 3D behavioral and morphodynamical analysis and automated analysis of up to 48 larvae at several hundred frames per second. The methodology is detailed in our preprint:  
 📄 [High-throughput multi-camera array microscope platform for automated 3D behavioral analysis of swimming zebrafish larvae](https://www.biorxiv.org/content/10.1101/2025.07.07.661868v2.full)
 
 ---
@@ -9,8 +9,10 @@
 
 - **3D Behavior Tracking:**  
   Uses **DeepLabCut** to track larval zebrafish from synchronized **top** and **side** views, reconstructing 3D skeletons for fine-grained behavioral analysis.
+
 - **Swim Bladder Segmentation and Reconstruction:**  
   Employs **SAM2** to segment the swim bladder from videos and reconstruct its 3D shape.
+
 - **Behavioral Kinematics:**  
   MATLAB scripts are used to derive kinematic variables from skeleton data, including trajectory and posture information.
 
@@ -51,12 +53,20 @@ ZebraPheno3D-main/
 
 ### Python Environment
 
-Install the required Python packages for tracking and segmentation:
+Install the required Python packages for tracking and segmentation. You will need:
+
+- [DeepLabCut](https://github.com/DeepLabCut/DeepLabCut) for multi-view pose estimation
+- [SAM2](https://github.com/facebookresearch/sam2) for swim bladder segmentation
 
 ```bash
-pip install deeplabcut opencv-python numpy matplotlib
-# For SAM2-related segmentation
-pip install segment-anything
+# Core packages
+pip install opencv-python numpy matplotlib
+
+# Install DeepLabCut (see repo for full instructions)
+pip install 'deeplabcut[gui]'
+
+# Install SAM2 (requires PyTorch, torchvision, etc.)
+# Please follow official instructions: https://github.com/facebookresearch/sam2
 ```
 
 ### MATLAB
