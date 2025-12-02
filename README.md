@@ -1,6 +1,6 @@
 # ZebraPheno3D
 
-**ZebraPheno3D** is a pipeline for 3D behavioral and anatomical phenotyping of zebrafish larvae. This project combines DeepLabCut-based multi-view tracking with 3D skeletal reconstruction, and incorporates SAM2-based segmentation for swim bladder extraction and analysis. The methodology is described in detail in our preprint:  
+**ZebraPheno3D** is a high-throughput platform designed for the 3D behavioral and anatomical phenotyping of zebrafish larvae. It consists of a multi-camera array microscope (MCAM) and a co-designed mirrored well plate, it enables the simultaneous capture of synchronized top and side views of multiple freely swimming larvae. An efficient, scalable machine learning pipeline enables accurate 3D behavioral and morphodynamical analysis and automated analysis of up to 48 larvae at several hundred frames per second. The methodology is described in detail in our preprint:  
 📄 [High-throughput multi-camera array microscope platform for automated 3D behavioral analysis of swimming zebrafish larvae](https://www.biorxiv.org/content/10.1101/2025.07.07.661868v2.full)
 
 ---
@@ -9,10 +9,8 @@
 
 - **3D Behavior Tracking:**  
   Uses **DeepLabCut** to track larval zebrafish from synchronized **top** and **side** views, reconstructing 3D skeletons for fine-grained behavioral analysis.
-
 - **Swim Bladder Segmentation and Reconstruction:**  
   Employs **SAM2** to segment the swim bladder from videos and reconstruct its 3D shape.
-
 - **Behavioral Kinematics:**  
   MATLAB scripts are used to derive kinematic variables from skeleton data, including trajectory and posture information.
 
