@@ -1,7 +1,7 @@
 # ZebraPheno3D
 
-**ZebraPheno3D** is a high-throughput platform designed for the 3D behavioral and anatomical phenotyping of zebrafish larvae. Consisting of a **multi-camera array microscope (MCAM)** and a co-designed **mirrored well plate**, it enables the simultaneous capture of synchronized top and side views of up to 48 swimming larvae. An efficient, scalable machine learning pipeline enables accurate 3D behavioral and morphodynamical analysis and automated analysis of larvae at several hundred frames per second. The methodology is detailed in our preprint:  
-📄 [High-throughput multi-camera array microscope platform for automated 3D behavioral analysis of swimming zebrafish larvae](https://www.biorxiv.org/content/10.1101/2025.07.07.661868v2.full)
+**ZebraPheno3D** is a high-throughput platform designed for the 3D behavioral and anatomical phenotyping of zebrafish larvae. Consisting of a **multi-camera array microscope (MCAM)** and a co-designed **mirrored well plate**, it enables the simultaneous capture of synchronized top and side views of up to 48 swimming larvae. An efficient, scalable machine learning pipeline enables accurate 3D behavioral and morphodynamical analysis and automated analysis of larvae at several hundred frames per second. The methodology was first described in our [preprint](https://www.biorxiv.org/content/10.1101/2025.07.07.661868v2.full). The peer-reviewed, final version of this work is now published:   
+📄 [High-throughput multi-camera array microscope platform for automated 3D behavioral analysis of swimming zebrafish larvae](https://www.nature.com/articles/s42003-025-09421-w)
 
 ---
 
@@ -107,18 +107,22 @@ Run the Jupyter notebooks in `swimbladder/` to segment the swim bladder and perf
 If you use this codebase or datasets, please cite:
 
 ```bibtex
-@article {Chen2025.07.07.661868,
-  author = {Chen, Haitao and Li, Kevin and Kreiss, Lucas and Reamey, Paul and Pierce, Lain X. and Zhang, Ralph and Da Luz, Ricardo and Chaware, Amey and Kim, Kanghyun and Cook, Clare B. and Yang, Xi and Lerner, Joshua F. and Doman, Jed and B{\`e}gue, Aur{\'e}lien and Efromson, John and Harfouche, Mark and Horstmeyer, Gregor and McCarroll, Matthew N. and Horstmeyer, Roarke},
+@article {chen2026sideview,
+  author = {Chen, Haitao and Li, Kevin and Kreiss, Lucas and Reamey, Paul and Pierce, Lain X. and Zhang, Ralph and Da Luz, Ricardo and Chaware, Amey and Kim, Kanghyun and Cook, Clare B. and Yang, Xi and Lerner, Joshua F. and Doman, Jed and Bègue, Aurélien and Efromson, John and Harfouche, Mark and Horstmeyer, Gregor and McCarroll, Matthew N. and Horstmeyer, Roarke},
   title = {High-throughput multi-camera array microscope platform for automated 3D behavioral analysis of swimming zebrafish larvae},
-  elocation-id = {2025.07.07.661868},
-  year = {2025},
-  doi = {10.1101/2025.07.07.661868},
-  publisher = {Cold Spring Harbor Laboratory},
-  URL = {https://www.biorxiv.org/content/early/2025/10/20/2025.07.07.661868},
-  eprint = {https://www.biorxiv.org/content/early/2025/10/20/2025.07.07.661868.full.pdf},
-  journal = {bioRxiv}
+  journal = {Communications Biology},
+  volume = {9},
+  number = {1},
+  pages = {141},
+  ISSN = {2399-3642},
+  DOI = {10.1038/s42003-025-09421-w},
+  url = {https://doi.org/10.1038/s42003-025-09421-w},
+  year = {2026},
+  type = {Journal Article}
 }
 ```
+
+
 
 ---
 
